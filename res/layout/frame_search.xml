@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 搜索条件 -->
+    <com.android.cs.plantquery.widget.SearchCondition 
+        android:id="@+id/searchCondition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <!-- 表头 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/frame_search_id"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_id" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_name"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_name" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_alias"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_alias" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_latinName"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_latinName" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_belongs"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_belongs" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_branch"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_branch" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_city"
+            style="@style/frame_search_table_title_button"
+            android:text="@string/frame_search_city" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/frame_button_cutline" />
+
+        <Button
+            android:id="@+id/frame_search_more"
+            style="@style/frame_search_table_title_button"
+            android:text="" />
+    </LinearLayout>
+
+    <com.android.cs.plantquery.widget.PullToRefreshListView
+        android:id="@+id/listview"
+        style="@style/widget_listview" />
+    
+    <com.android.cs.plantquery.widget.PagingBar 
+         android:id="@+id/pagingBar"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

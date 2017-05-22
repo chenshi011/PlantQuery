@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 系统设置-->
+<items>
+    <item checkbox="false">
+        <title>新增植物</title>
+        <summary>新增一条植物</summary>
+        <mode>2</mode> <!-- 0 Action(默认，可忽略该节点) ,1 正常启动acitivity,2 startActivityForResult,-->
+		<action>com.android.cs.plantquery.activity.PlantAdd</action>  
+    </item>
+     <item checkbox="true" setting="is_scroll"> <!-- setting的值为保存到SharedPreferences的key值 -->
+        <title>左右滑动</title>
+        <summary>已关闭左右滑动</summary>
+        <summary_checked>已开启左右滑动</summary_checked>
+        <mode>0</mode> 
+		<action>setScroll</action>  
+    </item>
+    <item checkbox="false">
+        <title>清除数据</title>
+        <summary>清除当前数据</summary>
+        <mode>0</mode> 
+		<action>clearData</action>  
+    </item>
+    <item checkbox="false">
+        <title>关于我们</title>
+        <summary>关于我们、版权信息</summary>
+        <mode>1</mode> 
+		<action>com.android.cs.plantquery.activity.About</action>  
+    </item>
+   
+</items>

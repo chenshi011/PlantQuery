@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 搜索条件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame_button_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame_search_new" />
+
+        <TextView
+            style="@style/frame_search_title"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:text="@string/frame_search_title1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/frame_search_good" />
+
+        <TextView
+            style="@style/frame_search_title"
+            android:text="@string/frame_search_title2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/frame_search_title"
+            android:layout_margin="10dip"
+            android:text="@string/frame_search_on" />
+
+        <Spinner
+            android:id="@+id/spinner_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner" />
+
+        <TextView
+            style="@style/frame_search_title"
+            android:text="@string/frame_search_onCity" />
+
+        <Spinner
+            android:id="@+id/spinner_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/frame_search_title"
+            android:layout_margin="10dip"
+            android:text="@string/frame_search_onSpecies" />
+
+        <Spinner
+            android:id="@+id/spinner_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- <EditText -->
+        <!-- android:id="@+id/edit_keyword" -->
+        <!-- style="@style/frame_editText" -->
+        <!-- android:layout_width="100dip" -->
+        <!-- android:layout_height="wrap_content" /> -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip" >
+
+            <Button
+                android:id="@+id/btn_search"
+                style="@style/frame_button"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dip"
+                android:text="@string/frame_search_button" />
+
+            <com.android.cs.plantquery.widget.SearchEditText
+                android:id="@+id/edit_search_key"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/btn_search" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

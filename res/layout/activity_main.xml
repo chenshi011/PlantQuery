@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+   <include layout="@layout/main_header" />
+   <com.android.cs.plantquery.widget.ScrollLayout 
+        android:id="@+id/main_scrolllayout"    
+	  	android:layout_width="fill_parent"    
+	 	android:layout_height="fill_parent"
+   	 	android:layout_weight="1">    
+   	 	
+       <include layout="@layout/frame_search" />
+       <include layout="@layout/frame_input" />
+       <include layout="@layout/frame_setting" /> 
+       
+   </com.android.cs.plantquery.widget.ScrollLayout> 
+	
+   <com.android.cs.plantquery.widget.MainFooterBar 
+   	    android:id="@+id/main_footerBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>

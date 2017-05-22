@@ -1,0 +1,156 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- 自定义标题样式 -->
+    <style name="StatusBarBackground">
+        <item name="android:background">@drawable/frame_button_bg</item>
+    </style>
+
+    <style name="XTheme" parent="android:Theme.Light">
+        <!-- Window attributes -->
+        <item name="android:windowTitleBackgroundStyle">@style/StatusBarBackground </item>
+         <item name="switchStyle">@style/switch_optimus</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+      <style name="switch_optimus" parent="android:Widget.CompoundButton">
+        <item name="thumb">@drawable/switch_inner</item>
+        <item name="track">@drawable/skin_switch_track</item>
+        <item name="textOn">@string/textOn</item>
+        <item name="textOff">@string/textOff</item>
+        <item name="thumbTextPadding">12.0dip</item>
+        <item name="switchTextAppearance">@style/TextAppearanceSwitch</item>
+        <item name="switchMinWidth">75.0dip</item>
+        <item name="switchPadding">16.0dip</item>
+    </style>
+
+    <style name="TextAppearanceSwitch" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading</item>
+        <item name="android:layout_width">21dip</item>
+        <item name="android:layout_height">21dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- 搜索表头 -->
+    <style name="frame_search_table_title_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/frame_button_bg</item>
+        <item name="android:textColor">@color/frame_button_text_light</item>
+    </style>
+
+    <style name="widget_listview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:listSelector">@drawable/listview_item_selector</item>
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+
+    <style name="frame_search_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">@color/frame_button_text_nor</item>
+    </style>
+    
+     <style name="frame_search_list_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:textColor">@color/frame_button_text_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="frame_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/frame_button</item>
+        <item name="android:textColor">@color/frame_button_text_light</item>
+    </style>
+
+    <style name="frame_editText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+    </style>
+     	<style name="main_head_title">
+        <item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@color/frame_button_text_light</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#ffffffff</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">1</item>
+    </style>
+    
+    <!-- 新增植物 -->
+    <style name="plant_add_title">
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">@color/frame_button_text_nor</item>
+    </style>
+    
+    <style name="plant_add_editText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+    </style>
+    
+    <!-- 分页控件文本 -->
+     <style name="paging_bar_text_result">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/paging_bar_text</item>
+    </style>
+    
+    <style name="paging_bar_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/paging_bar_text</item>
+    </style>
+    
+    <!-- 选择照片弹出框背景 -->
+    <style name="transparentFrameWindowStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/add_pic_dialog_bg</item>
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+    
+     <style name="animationPopup">
+        <item name="android:windowEnterAnimation">@anim/push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/push_down_out</item>
+    </style>
+</resources>

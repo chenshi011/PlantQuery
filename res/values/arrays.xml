@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="add_pic_alert">
+        <item>@string/plant_add_pic_take_phote</item>
+        <item>@string/plant_add_pic_choose_album</item>
+        <item>@string/plant_add_pic_choose_cancel</item>
+    </array>
+    <array name="list_item_long_click_alert">
+        <item>@string/list_item_edit</item>
+        <item>@string/list_item_del</item>
+    </array>
+</resources>

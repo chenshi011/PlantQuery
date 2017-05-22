@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/frame_search_title"
+            android:layout_width="80dip"
+            android:text="@string/frame_input_excelPath" />
+
+        <EditText
+            android:id="@+id/txt_excel_path"
+            style="@style/frame_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/frame_search_title"
+            android:layout_width="80dip"
+            android:text="@string/frame_input_picPath" />
+
+        <EditText
+            android:id="@+id/txt_pic_path"
+            style="@style/frame_editText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+         android:id="@+id/txt_progress"
+         style="@style/frame_search_title"
+         android:layout_marginLeft="10dip"
+         android:text="@string/input_progress" 
+         android:visibility="gone"
+         />
+    <ProgressBar
+        android:id="@+id/progressbar_input"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="10dip"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progressbar_normal" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="10dip" >
+
+        <ProgressBar
+            android:id="@+id/progressbar_wait"
+            style="@style/loading_small"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/frame_input_startinput"
+            style="@style/frame_button"
+            android:text="@string/frame_input_startinput" />
+    </RelativeLayout>
+
+
+</LinearLayout>

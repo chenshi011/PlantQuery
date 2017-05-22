@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/jhsl_androidnew/!svn/ver/4/res/anim
+END
+analysis_list_move_to_left.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/analysis_list_move_to_left.xml
+END
+left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/left_in.xml
+END
+left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/left_out.xml
+END
+popwindow_rightside_hide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/popwindow_rightside_hide.xml
+END
+analysis_list_move_to_right.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/analysis_list_move_to_right.xml
+END
+right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/right_in.xml
+END
+right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/right_out.xml
+END
+in_downtoup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jhsl_androidnew/!svn/ver/4/res/anim/in_downtoup.xml
+END
+out_downtoup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jhsl_androidnew/!svn/ver/4/res/anim/out_downtoup.xml
+END
+popwindow_rightside_show.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/popwindow_rightside_show.xml
+END
+gd_grow_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/gd_grow_from_topright_to_bottomleft.xml
+END
+gd_shrink_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jhsl_androidnew/!svn/ver/1/res/anim/gd_shrink_from_bottomleft_to_topright.xml
+END

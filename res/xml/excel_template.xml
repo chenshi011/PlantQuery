@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 导入excel的模板 -->
+<excel>
+    <sheet name="Sheet1" beginRow="1">
+        <id>0</id>
+        <name>1</name>
+        <alias>2</alias>
+        <latinName>3</latinName>
+        <belongs>4</belongs>
+        <branch>5</branch>
+        <city>6</city>
+        <details>7</details>
+	</sheet>
+</excel>

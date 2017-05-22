@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f="http://schemas.android.com/apk/res/com.android.cs.plantquery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame_button_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dip"
+            android:text="@string/plant_detail_title"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txt_plant_detail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="8dip"
+                android:layout_weight="1"
+                android:textColor="@color/frame_button_text_nor" />
+            <!-- 图片容器 -->
+
+
+            <!-- <LinearLayout -->
+            <!-- android:id="@+id/plant_container" -->
+            <!-- android:layout_width="wrap_content" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_margin="8dip" -->
+            <!-- android:orientation="horizontal" > -->
+            <!-- </LinearLayout> -->
+
+            <com.android.cs.plantquery.widget.FlowLayout
+                android:id="@+id/plant_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:background="@drawable/image_detail_bg"
+                android:orientation="horizontal"
+                f:horizontalSpacing="4dip"
+                f:verticalSpacing="5dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

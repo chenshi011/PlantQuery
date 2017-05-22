@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 种类列表 -->
+<select name="sort">
+    <option value="0">全部种类</option>
+    <option value="1">乔木</option>
+    <option value="2">灌木</option>
+    <option value="3">地被</option>
+    <option value="4">草坪</option>
+    <option value="5">水生</option>
+    <option value="6">藤本</option>
+    <option value="7">竹类</option>
+    <option value="8">草花</option>
+</select>

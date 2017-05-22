@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 城市列表 -->
+<select name="city">
+    <option value="0">所有城市</option>
+    <option value="1">北京</option>
+    <option value="2">上海</option>
+    <option value="3">广州</option>
+    <option value="4">天津</option>
+    <option value="5">沈阳</option>
+    <option value="6">哈尔滨</option>
+    <option value="7">大庆</option>
+    <option value="8">大连</option>
+    <option value="9">长春</option>
+    <option value="10">昆明</option>
+    <option value="11">重庆</option>
+    <option value="12">成都</option>
+    <option value="13">武汉 </option>
+    <option value="14">南京</option>
+    <option value="15">海口</option>
+    <option value="16">深圳</option>
+    <option value="17">南宁</option>
+    <option value="18">青岛</option>
+    <option value="19">郑州</option>
+    <option value="20">鞍山</option>
+    <option value="21">杭州</option>
+    <option value="22">长沙</option>
+    <option value="23">苏州</option>
+    <option value="24">济南</option>
+    <option value="25">西安</option>
+    <option value="26">太原</option>
+    <option value="27">连云港</option>
+    <option value="28">福州</option>
+    <option value="29">石家庄</option>
+    <option value="30">呼和浩特</option>
+    <option value="31">银川</option>
+    <option value="32">西宁</option>
+    <option value="33">乌鲁木齐</option>
+    <option value="34">拉萨</option>
+    <option value="35">兰州</option>
+    <option value="36">西双版纳</option>
+  </select>

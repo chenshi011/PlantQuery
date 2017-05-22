@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- （单个）新建一条记录 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:f="http://schemas.android.com/apk/res/com.android.cs.plantquery"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame_button_bg" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dip"
+            android:text="@string/frame_plant_add_title"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_name" />
+
+                    <EditText
+                        android:id="@+id/txt_name"
+                        style="@style/plant_add_editText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_alias" />
+
+                    <EditText
+                        android:id="@+id/txt_alias"
+                        style="@style/plant_add_editText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_latinName" />
+
+                    <EditText
+                        android:id="@+id/txt_latinName"
+                        style="@style/plant_add_editText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_belongs" />
+
+                    <EditText
+                        android:id="@+id/txt_belongs"
+                        style="@style/plant_add_editText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_branch" />
+
+                    <EditText
+                        android:id="@+id/txt_branch"
+                        style="@style/plant_add_editText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_city" />
+
+                    <EditText
+                        android:id="@+id/txt_city"
+                        style="@style/plant_add_editText" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip" >
+
+                    <TextView
+                        style="@style/plant_add_title"
+                        android:text="@string/frame_search_detail" />
+
+                    <EditText
+                        android:id="@+id/txt_detail"
+                        style="@style/plant_add_editText"
+                        android:layout_gravity="top"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:minHeight="50dip"
+                        android:paddingTop="5dp" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    style="@style/plant_add_title"
+                    android:text="@string/plant_detail_image" />
+
+                <com.android.cs.plantquery.widget.FlowLayout
+                    android:id="@+id/image_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="4dip"
+                    android:layout_marginBottom="4dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/image_add_bg"
+                    android:orientation="horizontal"
+                    f:horizontalSpacing="1dip"
+                    f:verticalSpacing="1dip" >
+
+<!--                     <ImageView -->
+<!--                         android:id="@+id/btn_add" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:background="@drawable/app_panel_add_icon" /> -->
+
+					<com.android.cs.plantquery.widget.ImageDel 
+					     android:id="@+id/btn_add"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginBottom="4dip"
+                         f:ImagemBackground="@drawable/app_panel_add_icon"
+                         f:useDel="false"
+					    />
+					
+                </com.android.cs.plantquery.widget.FlowLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+         >
+	
+        <ImageView 
+             android:layout_alignParentTop="true"
+             android:layout_width="fill_parent"
+       		 android:layout_height="0.5dip"
+       		 android:background="@drawable/frame_split_horizontal"
+            />
+        
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/frame_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/frame_button"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/btn_cancel"
+            android:text="@string/btn_ok" />
+    </RelativeLayout>
+
+</LinearLayout>

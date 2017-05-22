@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">景观植物大全</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_tap_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_update">最近更新：</string>
+    <string name="frame_search_title1">-> 当天植物</string>
+    <string name="frame_search_title2">-> 新优植物 </string>
+    <string name="msg_load_image_fail">图片加载失败</string>
+    <string name="frame_search_on">按 </string>
+    <string name="frame_search_onCity">按城市 </string>
+    <string name="frame_search_onSpecies">按种类 </string>
+    <string name="frame_search_keyWord">关键字 </string>
+    <string name="frame_search_button">搜索 </string>
+    <string name="frame_search_id">ID</string>
+    <string name="frame_search_name">名  称</string>
+    <string name="frame_search_alias">别  名</string>
+    <string name="frame_search_latinName">拉丁名</string>
+    <string name="frame_search_belongs">所  属</string>
+    <string name="frame_search_branch">科  目</string>
+    <string name="frame_search_city">城  市</string>
+    <string name="frame_search_detail">描  述</string>
+    <string name="frame_input_excelPath">Excel存放位置 </string>
+    <string name="frame_input_picPath">图片存放位置 </string>
+    <string name="frame_input_startinput">开始导入</string>
+    <string name="plant_detail_image">图  片</string>
+    <string name="plant_detail_title">植物详情</string>
+    <string name="frame_setting_head_title">系统设置</string>
+    <string name="frame_plant_add_title">新增植物</string>
+    <string name="btn_ok">确定 </string>
+    <string name="btn_cancel">取消</string>
+    <string name="main_head_inputing">正在导入数据...</string>
+    <string name="main_head_loading">正在加载数据...</string>
+    <string name="plant_add_pic_take_phote">拍照</string>
+    <string name="plant_add_pic_choose_album">从手机相册选择</string>
+    <string name="plant_add_pic_choose_cancel">取消</string>
+    <string name="plant_del_pic_title">删除</string>
+    <string name="plant_del_pic_msg">确定删除该张图片？</string>
+    <string name="list_item_edit">编辑</string>
+    <string name="list_item_del">删除</string>
+    <string name="list_item_alert_del_title">删除</string>
+    <string name="list_item_alert_del_msg">将会删除植物%s</string>
+    <string name="paging_bar_info">共%1$s页,第%2$s页,共查询到%3$s条信息</string>
+    <string name="paging_bar_fisrt_page">首页</string>
+    <string name="paging_bar_pre_page">上一页</string>
+    <string name="paging_bar_next_page">下一页</string>
+    <string name="paging_bar_end_page">尾页</string>
+    
+    
+    <string name="input_excel_style_err">请确保Excel路径正确！</string>
+    <string name="input_pic_path_err">请确保图片存放文件夹路径正确！</string>
+   
+    <string name="input_complete">导入完成！</string>
+    <string name="input_error">导入出错！请检查Excel格式</string>
+    
+    <string name="input_progress">%1$s/%2$s</string>
+    
+    <string name="textOn">"    "</string>
+    <string name="textOff">"    "</string>
+    
+    <string name="sdcad_not_exist">SD卡不存在！</string>
+    <string name="sdcad_no_freesize">SD卡空间不足</string>
+</resources>

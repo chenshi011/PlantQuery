@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 筛选列表 -->
+<select name="area">
+    <option value="0">全文搜索</option>
+    <option value="1">按名称</option>
+    <option value="2">按别名</option>
+	<option value="3">按拉丁名</option>
+	<option value="4">按科名</option>
+</select>

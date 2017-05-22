@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 搜索框 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" >
+    <EditText
+        android:id="@+id/edit_keyword"
+        android:layout_width="fill_parent"
+        android:layout_height="34.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn_search"
+        android:background="@drawable/search_box"
+        android:drawableLeft="@drawable/icon_search"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:imeOptions="actionNext"
+        android:maxLength="100"
+        android:paddingRight="30.0dip"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColorHint="#ffbfbfbf"
+        android:textSize="17.0sp" />
+
+       <ImageButton
+           android:id="@+id/btn_deleteall"
+           android:layout_width="20.0dip"
+           android:layout_height="32.0dip"
+           android:layout_alignRight="@id/edit_keyword"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="5.0dip"
+           android:background="#00000000"
+           android:src="@drawable/btn_icon_delete"
+           android:visibility="visible" />
+
+</RelativeLayout>

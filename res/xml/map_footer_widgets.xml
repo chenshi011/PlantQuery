@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 底部控制栏 -->
+<widgets>
+	 <widget>
+		<id>search</id>
+		<name>搜索</name>
+		<icon></icon>
+	</widget>
+    <widget>
+		<id>input</id>
+		<name>导入数据</name>
+		<icon></icon>
+	</widget>
+	  <widget>
+		<id>more</id>
+		<name>更多</name>
+		<icon></icon>
+	</widget>
+</widgets>
